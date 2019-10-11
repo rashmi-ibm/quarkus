@@ -24,7 +24,7 @@ import io.quarkus.mongodb.impl.ReactiveMongoClientImpl;
 class BasicInteractionTest extends MongoTestBase {
 
     private ReactiveMongoClient client;
-
+/*
     @BeforeEach
     void init() {
         client = new ReactiveMongoClientImpl(MongoClients.create(getConnectionString()));
@@ -310,5 +310,5 @@ class BasicInteractionTest extends MongoTestBase {
         assertThat(collection.listIndexes().toList().run().toCompletableFuture().join()).hasSize(1);
 
     }
-
+*/
 }

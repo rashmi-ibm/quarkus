@@ -45,7 +45,7 @@ public class MongoTestBase {
 
         return null;
     }
-
+/*
     @BeforeAll
     public static void startMongoDatabase() throws IOException {
         String uri = getConfiguredConnectionString();
@@ -165,5 +165,5 @@ public class MongoTestBase {
         document.put("longval", 123456789L);
         document.put("dblval", 1.23);
         return document;
-    }
+    }*/
 }

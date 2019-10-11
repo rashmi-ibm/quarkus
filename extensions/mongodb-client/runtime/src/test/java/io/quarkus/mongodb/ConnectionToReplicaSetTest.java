@@ -20,7 +20,7 @@ import io.quarkus.mongodb.impl.ReactiveMongoClientImpl;
 class ConnectionToReplicaSetTest extends MongoWithReplicasTestBase {
 
     private ReactiveMongoClient client;
-
+/*
     @AfterEach
     void cleanup() {
         client.close();
@@ -65,5 +65,5 @@ class ConnectionToReplicaSetTest extends MongoWithReplicasTestBase {
         System.out.println("Failures are: " + failures);
         assertThat(failures).isEmpty();
     }
-
+*/
 }

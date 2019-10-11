@@ -19,7 +19,7 @@ import io.quarkus.mongodb.impl.ReactiveMongoClientImpl;
 class ListDatabaseTest extends MongoWithReplicasTestBase {
 
     private ReactiveMongoClient client;
-
+/*
     @BeforeEach
     void init() {
         client = new ReactiveMongoClientImpl(MongoClients.create(getConnectionString()));
@@ -65,5 +65,5 @@ class ListDatabaseTest extends MongoWithReplicasTestBase {
                 .toCompletableFuture().join();
         assertThat(session).isNotNull();
         session.close();
-    }
+    }*/
 }

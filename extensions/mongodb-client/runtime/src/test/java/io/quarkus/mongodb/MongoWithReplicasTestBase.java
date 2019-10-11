@@ -33,7 +33,7 @@ public class MongoWithReplicasTestBase {
 
     private static final Logger LOGGER = Logger.getLogger(MongoWithReplicasTestBase.class);
     private static List<MongodExecutable> MONGOS = new ArrayList<>();
-
+/*
     @BeforeAll
     public static void startMongoDatabase() throws IOException {
         String uri = getConfiguredConnectionString();
@@ -158,5 +158,5 @@ public class MongoWithReplicasTestBase {
         }
         return builder.build();
     }
-
+*/
 }

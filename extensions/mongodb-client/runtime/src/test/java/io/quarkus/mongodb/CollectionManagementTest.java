@@ -28,7 +28,7 @@ import io.quarkus.mongodb.impl.ReactiveMongoClientImpl;
 class CollectionManagementTest extends MongoTestBase {
 
     private ReactiveMongoClient client;
-
+/*
     @BeforeEach
     void init() {
         client = new ReactiveMongoClientImpl(MongoClients.create(getConnectionString()));
@@ -450,5 +450,5 @@ class CollectionManagementTest extends MongoTestBase {
                 .run().toCompletableFuture().join()).hasSize(2);
 
     }
-
+*/
 }

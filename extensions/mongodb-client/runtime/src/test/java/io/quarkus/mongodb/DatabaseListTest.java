@@ -17,7 +17,7 @@ import io.quarkus.mongodb.impl.ReactiveMongoClientImpl;
 public class DatabaseListTest extends MongoTestBase {
 
     private ReactiveMongoClient client;
-
+/*
     @BeforeEach
     void init() {
         client = new ReactiveMongoClientImpl(MongoClients.create(getConnectionString()));
@@ -49,5 +49,5 @@ public class DatabaseListTest extends MongoTestBase {
                 .toCompletableFuture().join().size()).isBetween(2, 3);
         assertThat(ReactiveStreams.fromPublisher(client.listDatabasesAsPublisher(Document.class)).toList().run()
                 .toCompletableFuture().join().size()).isBetween(2, 3);
-    }
+    }*/
 }
